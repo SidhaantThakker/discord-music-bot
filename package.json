@@ -1,0 +1,28 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "I made this for practice, following the great article by Gabriel Tanner that you can find [here](https://gabrieltanner.org/blog/dicord-music-bot)",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidhaantThakker/discord-music-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SidhaantThakker/discord-music-bot/issues"
+  },
+  "homepage": "https://github.com/SidhaantThakker/discord-music-bot#readme"
+}

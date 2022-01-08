@@ -44,6 +44,8 @@ client.on('message', async message => {
         queue.delete(message.guild.id)
         serverQueue.songs = [];
         serverQueue.voiceChannel.leave()
+    } else if(message.content.startsWith(prefix+'help')){
+        message.channel.send("Hello, I'm Bonk Chonk! I play music!\n#play <url> to play song from youtube\n#skip - skip current song\n#stop - remove all songs\n#leave - leave the channel")
     }
     else {
         message.channel.send("Command not found!") //Add help message later

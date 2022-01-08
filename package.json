@@ -4,10 +4,13 @@
   "description": "I made this for practice, following the great article by Gabriel Tanner that you can find [here](https://gabrieltanner.org/blog/dicord-music-bot)",
   "main": "index.js",
   "dependencies": {
+    "@discordjs/opus": "^0.7.0",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
     "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
+    "node-opus": "^0.3.3",
+    "opusscript": "0.0.8",
     "ytdl-core": "^4.9.2"
   },
   "devDependencies": {},
